@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Bilaspur, Chhattisgarh, India"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "+91 9630607797"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "contactinfo@.com"
+  }
+]
