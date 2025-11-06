@@ -33,6 +33,9 @@ export const Headers = () => {
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
+              <li>
+                <NavLink to="/form">Form</NavLink>
+              </li>
             </ul>
           </nav>
 

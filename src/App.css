@@ -261,7 +261,7 @@ nav ul {
 .container-card {
   position: relative;
   border: 2px solid transparent;
-  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background: linear-gradient(71deg, #4f4950, #1a171c, #676767);
   background-clip: padding-box;
   border-radius: 45px;
   padding: 40px;

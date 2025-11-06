@@ -9,6 +9,7 @@ import { Country } from "./pages/Country";
 import { Contact } from "./pages/Contact";
 import { ErrorPage } from "./pages/ErrorPage";
 import { CountryDetails } from "./components/Layout/CountryDetails";
+import Form from "./pages/Form";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "form",
+        element: <Form />,
+
       },
     ],
   },
