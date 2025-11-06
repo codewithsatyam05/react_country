@@ -7,6 +7,9 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Country } from "./pages/Country";
 import { Contact } from "./pages/Contact";
+// import {ContactForm} from "./pages/Contact";
+import { ContactForm } from "./ContactForm";
+
 import { ErrorPage } from "./pages/ErrorPage";
 import { CountryDetails } from "./components/Layout/CountryDetails";
 import Form from "./pages/Form";
@@ -35,8 +38,14 @@ const router = createBrowserRouter([
       },
       {
         path: "contact",
-        element: <Contact />,
+        element: <Contact/>,
       },
+
+     {
+       path: "ContactForm",
+       element: <ContactForm/>,
+     },
+      
       {
         path: "form",
         element: <Form />,
